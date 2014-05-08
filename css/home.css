@@ -5,6 +5,7 @@ div.content .header {
   margin-bottom: 20px;
   padding: 3px;
 }
+
 div.content .highlight-header {
 	background-color: #3399FF;
   font-weight: bold;
@@ -13,20 +14,62 @@ div.content .highlight-header {
   padding: 3px;
   color:#fff;
 }
+
 div.content {
 	margin-top:20px;
 }
-div#video {
-	border:1px solid black;
-	height:450px;
+
+div#tv {
+	margin-top:5px;
+	width: 25px;
+	height:25px;
+	background-image: url("../img/home/tv.png");
 }
-ul.video-menu {
-	margin-top: 10px;
-	margin-left: -40px;
+
+div#web-cam {
+	margin-top:5px;
+	width: 25px;
+	height:25px;
+	background-image: url("../img/home/web-cam.png");
 }
-ul.video-menu li {
-	background-color: #F8F8F8;
-	list-style-type: none;
-	border: 1px solid #E0E0E0;
-	padding: 10px;
+
+div#tv5 {
+	margin-top:5px;
+	width: 35px;
+	height:28px;
+	background-image: url("../img/home/tv5.png");
+}
+
+div#tgn {
+	margin-top:5px;
+	width: 35px;
+	height:28px;
+	background-image: url("../img/home/tgn.png");
+}
+
+div.text-video {
+	margin-left: 5px;
+	padding: 10px 0px;
+}
+
+div.text-video2 {
+	margin-left: 5px;
+	padding: 3px 0px;
+}
+
+div.text-video2 div:last-child {
+	font-size: 11px;
+}
+
+div.video-menu {
+	border: 1px solid #E0E0E0 !important;
+}
+
+div.video-menu:hover {
+	cursor: pointer;
+	background-color: #E0E0E0;
+}
+
+div#video-mgr {
+	margin-top:10px;
 }
