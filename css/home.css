@@ -1,0 +1,32 @@
+div.content .header {
+  border-bottom: 3px solid #eee;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+div.content .highlight-header {
+	background-color: #3399FF;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 3px;
+  color:#fff;
+}
+div.content {
+	margin-top:20px;
+}
+div#video {
+	border:1px solid black;
+	height:450px;
+}
+ul.video-menu {
+	margin-top: 10px;
+	margin-left: -40px;
+}
+ul.video-menu li {
+	background-color: #F8F8F8;
+	list-style-type: none;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+}
