@@ -1,0 +1,61 @@
+.btn-group { width: 100%; }
+.btn-group .btn {
+  border-radius: 0;
+  height: 50px;
+  padding: 15px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn-group .btn-default { width: 353px; }
+.btn-group .btn-inverse {
+  background-color: #333;
+  color: #999;
+  width: 232px;
+}
+
+.btn-group .btn-inverse:hover {
+  background-color: #222;
+  color: #999;
+}
+
+.screen { width: 706px; }
+.history {
+  width: 230px;
+  height: 403px;
+  overflow: auto;
+}
+
+.history .date {
+  background-color: #3498db;
+  height: 100%;
+  width: 85%;
+  padding: 10px;
+  color: white;
+}
+
+.history .action {
+  background-color: #2980b9;
+  height: 100%;
+  width: 15%;
+  padding: 10px;
+  color: white;
+}
+
+.history table th {
+  padding: 0 !important;
+}
+
+.history table tr.clickableRow:hover td {
+  background-color: #3498db !important;
+}
+
+.history table tr.active td {
+  background-color: #3498db !important;
+}
+
+.history table td {
+  padding: 5px !important;
+  font-size: 12px;
+}
