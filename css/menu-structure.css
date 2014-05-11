@@ -43,6 +43,27 @@ hr {
   color: #3399FF !important;
 }
 
+.navbar-transparent li.open a.dropdown-toggle {
+  border-top: 5px solid #3399FF;
+  padding-top: 9px !important;
+  color: #3399FF !important;
+  background-color: transparent !important;
+}
+
+ul.dropdown-menu {
+  min-width: 114px !important;
+}
+
+ul.dropdown-menu li {
+  display: block;
+  margin: 0;
+}
+
+ul.dropdown-menu li a:hover {
+  background-color: #3399FF;
+  color: white !important;
+}
+
 div.navbar-collapse {
   padding: 0;
   border-bottom: 1px solid #eee;
