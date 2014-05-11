@@ -1,0 +1,19 @@
+#Btn5 {
+   background-image: url('../img/video/CH_Select_schedule_01.png');
+   height: 30px;
+   width: 163px;
+}
+
+#Btn5:hover {
+   background-image: url('../img/video/CH_Select_schedule_Hover_01.png');
+}
+
+#BtnTG {
+   background-image: url('../img/video/CH_Select_schedule_02.png');
+   height: 30px;
+   width: 163px;
+}
+
+#BtnTG:hover {
+   background-image: url('../img/video/CH_Select_schedule_Hover_02.png');
+}

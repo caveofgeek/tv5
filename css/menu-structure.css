@@ -1,4 +1,4 @@
-div.container { max-width: 966px; }
+div.container { max-width: 966px; padding: 5px; }
 
 hr {
   margin-bottom: 0px;

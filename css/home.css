@@ -1,0 +1,128 @@
+div.content .header {
+  border-bottom: 3px solid #eee;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+div.content .highlight-header {
+	background-color: #3399FF;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  padding: 3px;
+  color:#fff;
+  font-size: 16px;
+}
+
+div.content {
+	margin-top:20px;
+}
+
+div#tv {
+	margin-top:5px;
+	width: 25px;
+	height:25px;
+	background-image: url("../img/home/tv.png");
+}
+
+div#web-cam {
+	margin-top:5px;
+	width: 25px;
+	height:25px;
+	background-image: url("../img/home/web-cam.png");
+}
+
+div#tv5 {
+	margin-top:5px;
+	width: 35px;
+	height:28px;
+	background-image: url("../img/home/tv5.png");
+}
+
+div#tgn {
+	margin-top:5px;
+	width: 35px;
+	height:28px;
+	background-image: url("../img/home/tgn.png");
+}
+
+div.text-video {
+	margin-left: 5px;
+	padding: 10px 0px;
+}
+
+div.text-video2 {
+	margin-left: 5px;
+	padding: 3px 0px;
+}
+
+div.text-video2 div:last-child {
+	font-size: 10px;
+}
+
+div.video-menu {
+	border: 1px solid #E0E0E0 !important;
+}
+
+div.video-menu:hover {
+	cursor: pointer;
+	background-color: #E0E0E0;
+}
+
+div#video-mgr {
+	margin-top:10px;
+}
+
+/*
+	overload span.badge from boostrap
+*/
+span.label {
+	padding: 0px 3px !important;
+}
+a {
+	text-decoration: none !important;
+}
+p.calendar-header {
+	background-color: #000;
+	font-size: 12px;
+	color: #fff;
+	padding: 1px;
+	text-align: center;
+}
+div.schedual div {
+	float:left;
+}
+
+div.schedual .show-status {
+	border-right: 1px solid #999;
+	padding: 0px 5px;
+	width:45px;
+	height: 20px;
+}
+div.schedual .show-list {
+	width:165px;
+	padding-left:5px;
+}
+
+div.clear {
+	clear:both;
+	margin-top:10px;
+	border-top: 1px solid #999;
+	height: 30px;
+}
+div.clear2 {
+	clear:both;
+	height: 30px;
+}
+.color-gray {
+	color: #999;
+}
+.color-blue {
+	color: #5bc0de;
+}
+.color-black {
+	color: #000;
+}

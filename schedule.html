@@ -14,8 +14,11 @@
 
       <!-- Add custom CSS here -->
       <link href="css/menu-structure.css" rel="stylesheet">
-      <link href="css/radio.css" rel="stylesheet">
       <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	  <link href="css/schedule.css" rel="stylesheet">
+      <style>
+
+      </style>
   </head>
 
   <body>
@@ -57,52 +60,66 @@
 
     <!-- CONTENT -->
     <div class="container">
-      <div class="btn-group" data-toggle="buttons">
-        <label class="btn btn-default active">
-          <input type="radio" name="options" id="option1">วิทยุ FM 94.00 MHz
-        </label>
-        <label class="btn btn-default">
-          <input type="radio" name="options" id="option2">วิทยุ FM 94.00 MHz HD3
-        </label>
-        <label class="btn btn-inverse">
-          <input type="radio" name="options" id="option3">ข่าวต้นชั่วโมง (ย้อนหลัง)
-        </label>
-      </div>
-      <div class="screen pull-left">
-        <img src="img/radio/live_radio.jpg">
-      </div>
-      <div class="history pull-left">
-        <table class="table table-striped text-center">
-          <thead>
-            <tr>
-              <th>
-                <div class="date text-center pull-left">18 มีนาคม 2014</div>
-                <div class="action text-center pull-right"><i class="fa fa-calendar"></i></div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 07.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 08.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 09.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 10.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 11.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 12.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 13.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 14.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 15.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 16.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 17.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 18.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 19.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 20.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 21.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 22.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 23.00 น.</td></tr>
-            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 00.00 น.</td></tr>
-          </tbody>
-        </table>
-      </div>
+      <!-- PASTE YOUR CONTENT HERE NA JA -->
+		<div class="row">
+			<div class="col-md-9">
+				<div>
+					<img id="Btn5"><img id='BtnTG'>
+					เลือกวันที่ 
+					<input type="text" value="18 เมษายน 2534" size="14"><img src="img/video/Calendar_icon.png">
+					<!--เลือกเวลา
+					<input type="text" value="10:00 น." size="5"><img src="img/video/Clock_icon.png">-->
+				</div>				
+				<div style='margin-top:5px'>
+					<img src="img/video/table_show.png" width="100%">	
+					<div>
+						<img id="Btn_active">
+						<img id="BtnThu">
+						<img id="BtnWen">
+						<img id="BtnThur">
+						<img id="BtnFri">
+						<img id="BtnSat">
+						<img id="BtnSun">
+					</div>
+					<div>
+						<img src="img/Schedule/Schedule_day_Bar1.jpg">
+					</div>
+					<div style='margin-top:20px'>
+						<table class="table table-striped">
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center" colspan="2"><img src="img/Schedule/Live_bar_cp.PNG"></td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+							<tr><td align="center">05:00 - 05:25</td><td align="center">ส่องโลกเกษตร</td></tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				 <img src="img/video/see.png">
+				 <hr style="margin-top: 0px;">
+				 <div style="margin-top: 15px;">
+					<div>
+						<table>
+						<tr><td><img src="img/video/small1.png"></td><td style="padding: 4px"><a href="#">ข่าว 5 หน้า 1 </a> ออกอากาศเวลา 10 โมงทุกวัน</td></tr>
+						<tr><td><img src="img/video/small1.png"></td><td style="padding: 4px"><a href="#">ข่าว 5 หน้า 1 </a> ออกอากาศเวลา 10 โมงทุกวัน</td></tr>
+						<tr><td><img src="img/video/small1.png"></td><td style="padding: 4px"><a href="#">ข่าว 5 หน้า 1 </a> ออกอากาศเวลา 10 โมงทุกวัน</td></tr>
+						<tr><td><img src="img/video/small1.png"></td><td style="padding: 4px"><a href="#">ข่าว 5 หน้า 1 </a> ออกอากาศเวลา 10 โมงทุกวัน</td></tr>
+						<tr><td><img src="img/video/small1.png"></td><td style="padding: 4px"><a href="#">ข่าว 5 หน้า 1 </a> ออกอากาศเวลา 10 โมงทุกวัน</td></tr>
+						</table>
+					</div>
+					 <hr style="margin-top: 20px;">
+					<img src="img/video/banner.png" width="100%">	
+				</div>
+			</div>
+		</div>
     </div>
     <!-- END CONTENT -->
 
@@ -198,9 +215,9 @@
           <span>สงวนลิขสิทธิ์ @2553 : สถานีวิทยุโทรทัศน์กองทัพบก</span>
           <span class="pull-right">
             <ul>
-              <li><a href="index.html">หน้าแรก</a></li>
+              <li><a href="#">หน้าแรก</a></li>
               <li><a href="radio.html">วิทยุ</a></li>
-              <li><a href="video.html">ดูทีวีย้อนหลัง</a></li>
+              <li><a href="#">ดูทีวีย้อนหลัง</a></li>
               <li><a href="#">ตารางออกอากาศ</a></li>
               <li><a href="#">รายการสด</a></li>
               <li><a href="#">เกี่ยวกับเรา</a></li>
@@ -210,15 +227,7 @@
       </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+	<!--<script type="text/javascript" src="js/bootstrap-datepicker.js"/>-->
 
-    <script>
-      $('.clickableRow').click(function(){
-        $('.clickableRow').removeClass("active");
-        $(this).addClass("active");
-      });
-    </script>
   </body>
 </html>
