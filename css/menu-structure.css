@@ -50,17 +50,21 @@ hr {
   background-color: transparent !important;
 }
 
-ul.dropdown-menu {
+.navbar-transparent ul.dropdown-menu {
   min-width: 114px !important;
 }
 
-ul.dropdown-menu li {
+.navbar-transparent ul.dropdown-menu li {
   display: block;
   margin: 0;
 }
 
-ul.dropdown-menu li a:hover {
-  background-color: #3399FF;
+.navbar-transparent ul.dropdown-menu li a {
+  border: none;
+}
+
+.navbar-transparent ul.dropdown-menu li a:hover {
+  background-color: #3399FF !important;
   color: white !important;
 }
 
