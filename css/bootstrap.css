@@ -4126,7 +4126,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #ccc;
-  content: "U+003E";
+  content: "/\00a0";
 }
 .breadcrumb > .active {
   color: #999;
