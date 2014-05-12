@@ -1,0 +1,96 @@
+#Btn5 {
+   background-image: url('../img/video/CH_Select_schedule_01.png');
+   height: 30px;
+   width: 163px;
+}
+
+#Btn5:hover {
+   background-image: url('../img/video/CH_Select_schedule_Hover_01.png');
+}
+
+#BtnTG {
+   background-image: url('../img/video/CH_Select_schedule_02.png');
+   height: 30px;
+   width: 163px;
+}
+
+#BtnTG:hover {
+   background-image: url('../img/video/CH_Select_schedule_Hover_02.png');
+}
+
+
+
+#BtnMon {
+   background-image: url('../img/schedule/Schedule_day_01.jpg');
+   height: 53px;
+   width: 95px;
+}
+#BtnMon:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_01.jpg');
+}
+#Btn_active {
+   background-image: url('../img/schedule/Schedule_day_Hover_01.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+
+#BtnThu {
+   background-image: url('../img/schedule/Schedule_day_02.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnThu:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_02.jpg');
+}
+
+#BtnWen {
+   background-image: url('../img/schedule/Schedule_day_03.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnWen:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_03.jpg');
+}
+
+#BtnThur {
+   background-image: url('../img/schedule/Schedule_day_04.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnThur:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_04.jpg');
+}
+
+#BtnFri {
+   background-image: url('../img/schedule/Schedule_day_05.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnFri:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_05.jpg');
+}
+
+#BtnSat {
+   background-image: url('../img/schedule/Schedule_day_06.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnSat:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_06.jpg');
+}
+
+#BtnSun {
+   background-image: url('../img/schedule/Schedule_day_07.jpg');
+   height: 53px;
+   width: 95px;
+}
+
+#BtnSun:hover {
+   background-image: url('../img/schedule/Schedule_day_Hover_07.jpg');
+}

@@ -4,7 +4,7 @@ div.content .header {
   color: #333;
   margin-bottom: 20px;
   padding: 3px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 div.content .highlight-header {
@@ -97,7 +97,7 @@ div.schedual div {
 }
 
 div.schedual .show-status {
-	border-right: 1px solid gray;
+	border-right: 1px solid #999;
 	padding: 0px 5px;
 	width:45px;
 	height: 20px;
@@ -110,7 +110,7 @@ div.schedual .show-list {
 div.clear {
 	clear:both;
 	margin-top:10px;
-	border-top: 1px solid gray;
+	border-top: 1px solid #999;
 	height: 30px;
 }
 div.clear2 {
@@ -118,10 +118,10 @@ div.clear2 {
 	height: 30px;
 }
 .color-gray {
-	color: gray;
+	color: #999;
 }
 .color-blue {
-	color: blue;
+	color: #5bc0de;
 }
 .color-black {
 	color: #000;
