@@ -16,9 +16,6 @@
       <link href="css/menu-structure.css" rel="stylesheet">
       <link href="css/video.css" rel="stylesheet">
       <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-      <style>
-
-      </style>
   </head>
 
   <body>
@@ -42,7 +39,7 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">หน้าแรก</a></li>
             <li><a href="radio.html">วิทยุ</a></li>
-            <li><a href="#">รายการย้อนหลัง</a></li>
+            <li><a href="video.html">รายการย้อนหลัง</a></li>
             <li><a href="video_back.html">ดูทีวีย้อนหลัง</a></li>
             <li><a href="schedule.html">ตารางออกอากาศ</a></li>
             <li><a href="#">เกี่ยวกับเรา</a></li>
@@ -60,158 +57,160 @@
 
     <!-- CONTENT -->
     <div class="container">
-      
-      <div class="row content">
-          <div class="col-md-9">
-            <div class="now-video">
-              <div class="pull-left">
-                <ol class="breadcrumb">
-                  <li><a href="#">รายการย้อนหลัง</a></li>
-                  <li><a href="#">ข่าว</a></li>
-                  <li class="active">ข่าวประจำวัน</li>
-                </ol>
-              </div>
-              <iframe src="//player.vimeo.com/video/93120068" width="100%" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              <a href="#"><h3>Video 1</h3></a>
-              <span class="date pull-left">13 พฤษภาคม 2557 / <a href="#">News</a></span>
-              <div class="view_count pull-right"> 
-                <span class="rating color-blue">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-o"></i>
-                  <i class="fa fa-star-o"></i>
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">Data</li>
+      </ol>
+
+      <div class="row">
+        <div class="col-md-9">
+          <div class="main-video">
+            <iframe src="http://player.vimeo.com/video/93498336" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="http://vimeo.com/93498336">Flatbush Zombies x Trash Talk - 97.92</a></p>
+            <div class="detail">
+              <span class="time">28 กุมภาพันธ์ 2557</span> / <span class="tag"><a href="#">News</a></span>
+              <span class="rating">
+                <span class="view pull-right ">10,575 views</span>
+                <span  class="star pull-right ">
+                  <ul>
+                    <li class="active"><i class="fa fa-star"></i></li>
+                    <li class="active"><i class="fa fa-star"></i></li>
+                    <li class="active"><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                  </ul>
                 </span>
-                10,000 Views
-              </div>
-              <div class="video-description">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. 
-              </div>
+              </span>
+              <hr>
+              <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </p>
             </div>
-
-            <div class="clear2"></div>
-
-            <div class="news-into">
-              <div class="header">รายการแนะนำ <span class="pull-right"><a href=""><i class="fa fa-bars"></i></a> <a href="#"><i class="fa fa-th"></i></a></span></div>
-              <div class="col-md-4">
-                <img src="./img/home/new1.jpg" width="220" height="220">
-                <a href="#" class="title-news"><h4>News-Into-1</h4></a>
-                ปชป.ออกแถลงการณ์ 5 ข้อ วอน ทุกฝ่ายดับวิกฤตประเทศ แนะรัฐเป็นผู้เริ่มเสียสละ
-              </div>
-              <div class="col-md-4">
-                <img src="./img/home/new2.jpg" width="220" height="220">
-                <a href="#" class="title-news"><h4>News-Into-2</h4></a>
-                นางแบบสาวไต้หวัน โพสต์ขอโทษ ใส่เสื้อกปปส.โชว์หวิว !!
-              </div>
-              <div class="col-md-4">
-                <img src="./img/home/new3.jpg" width="220" height="220">
-                <a href="#" class="title-news"><h4>News-Into-3</h4></a>
-                ยังไหว! "แบลตเตอร์"ขอนั่งเก้าอี้ปธ.ฟีฟ่าสมัย 5
-              </div>
-            </div>
-
-            <div class="clear2"></div>
-            <ul class="pager">
-              <li class="previous disabled"><a href="#">&larr; Older</a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li class="next"><a href="#">Newer &rarr;</a></li>
-            </ul>
           </div>
 
-          <!-- SIDE BAR -->
-          <div class="col-md-3">
-            
-            <div class="video-related">
-              <div class="header"><i class="fa fa-video-camera"></i> คลิปที่เกี่ยวข้อง</div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new1.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">ปชป.ออกแถลงการณ์ 5 ข้อ </a></h4>
-                  ปชป.ออกแถลงการณ์ 5 ข้อ วอน ทุกฝ่ายดับวิกฤตประเทศ...
+          <div class="recommended">
+            <h4>รายการแนะนำ</h4>
+            <hr>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/video/rec1.png" width="220">
+                <div class="detail">
+                  <a href="#">ท่องเที่ยวสดใสใส่ใจสิ่งแวดล้อม</a>
+                  <p class="description">รายการแนะนำสถานที่ท่องเที่ยวไทย</p>
+                  <p class="view">4,520 views</p>
                 </div>
               </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new2.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">นางแบบสาวไต้หวันโชว์หวิว !!</a></h4>
-                  นางแบบสาวไต้หวัน โพสต์ขอโทษ ใส่เสื้อกปปส.โชว์หวิว !!
+
+              <div class="col-md-4">
+                <img src="img/video/rec2.png" width="220">
+                <div class="detail">
+                  <a href="#">เมดอินไทยแลนด์</a>
+                  <p class="description">ออกอากาศทุกวันจันทร์-ศุกร์ 5 วันเต็ม</p>
+                  <p class="view">10,278 views</p>
                 </div>
               </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new3.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">ยังไหว!</a></h4>
-                  ยังไหว! "แบลตเตอร์"ขอนั่งเก้าอี้ปธ.ฟีฟ่าสมัย 5
-                </div>
-              </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new4.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">การเมืองร้อนฉุดหุ้นไทยร่วง</a></h4>
-                  การเมืองร้อนฉุดหุ้นไทยร่วงเกือบ 24 จุด ซื้อขาย 3.9 หมื่นล้าน
+
+              <div class="col-md-4">
+                <img src="img/video/rec3.png" width="220">
+                <div class="detail">
+                  <a href="#">ท่องเที่ยวไทย</a>
+                  <p class="description">ออกอากาศทุกวันเสาร์-อาทิตย์</p>
+                  <p class="view">2,354 views</p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="clear"></div>
+          <div class="pagination">
+          </div>
+        </div>
 
-            <div class="more-watching">
-              <div class="header"><i class="fa fa-video-camera"></i> เข้าชมมากที่สุด</div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new1.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">ปชป.ออกแถลงการณ์ 5 ข้อ </a></h4>
-                  ปชป.ออกแถลงการณ์ 5 ข้อ วอน ทุกฝ่ายดับวิกฤตประเทศ...
+        <div class="col-md-3">
+          <div class="sidebar">
+            <h4><i class="fa fa-video-camera"></i> คลิปที่เกี่ยวข้อง</h4>
+            <hr>
+            <div class="items">
+              <div class="video">
+                <img src="img/video/related1.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">enim ad</a>
+                  <p class="description">minim veniam, quis nostrud</p>
+                  <p class="view">2,354 views</p>
                 </div>
               </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new2.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">นางแบบสาวไต้หวันโชว์หวิว !!</a></h4>
-                  นางแบบสาวไต้หวัน โพสต์ขอโทษ ใส่เสื้อกปปส.โชว์หวิว !!
+              <div class="video">
+                <img src="img/video/related2.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">dolore magna</a>
+                  <p class="description">exercitation ullamco laboris</p>
+                  <p class="view">2,345 views</p>
                 </div>
               </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new3.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">ยังไหว!</a></h4>
-                  ยังไหว! "แบลตเตอร์"ขอนั่งเก้าอี้ปธ.ฟีฟ่าสมัย 5
+
+              <div class="video">
+                <img src="img/video/related3.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">labore et</a>
+                  <p class="description">nisi ut aliquip ex ea</p>
+                  <p class="view">1,090 views</p>
                 </div>
               </div>
-              <div class="media">
-                <a class="pull-left" href="#">
-                  <img class="media-object" src="./img/home/new4.jpg" width="100" height="70">
-                </a>
-                <div class="media-body">
-                  <h5 class="media-heading"><a href="#">การเมืองร้อนฉุดหุ้นไทยร่วง</a></h4>
-                  การเมืองร้อนฉุดหุ้นไทยร่วงเกือบ 24 จุด ซื้อขาย 3.9 หมื่นล้าน
+
+              <div class="video">
+                <img src="img/video/related4.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">est laborum</a>
+                  <p class="description">commodo consequat</p>
+                  <p class="view">3,098 views</p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="clear"></div>
+          <div class="sidebar">
+            <h4><i class="fa fa-video-camera"></i> เข้าชมมากที่สุด</h4>
+            <hr>
+            <div class="items">
+              <div class="video">
+                <img src="img/video/hot1.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">Lorem ipsum</a>
+                  <p class="description">aute irure dolor in</p>
+                  <p class="view">5,098 views</p>
+                </div>
+              </div>
+              <div class="video">
+                <img src="img/video/hot2.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">dolor sit amet</a>
+                  <p class="description">reprehenderit in voluptate</p>
+                  <p class="view">4,567 views</p>
+                </div>
+              </div>
 
-            <div class="ads">
-              <img class="media-object" src="./img/home/AD_Banner2.jpg">
+              <div class="video">
+                <img src="img/video/hot3.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">adipisicing elit</a>
+                  <p class="description">velit esse cillum dolore eu</p>
+                  <p class="view">3,433 views</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <img src="img/video/hot4.jpg" width="110" class="pull-left">
+                <div class="detail pull-left">
+                  <a href="#">sed do eiusmod</a>
+                  <p class="description">fugiat nulla pariatur</p>
+                  <p class="view">3,000 views</p>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div class="ad">
+            <img src="img/video/ad.png" width="211">
           </div>
         </div>
       </div>
@@ -310,9 +309,9 @@
           <span>สงวนลิขสิทธิ์ @2553 : สถานีวิทยุโทรทัศน์กองทัพบก</span>
           <span class="pull-right">
             <ul>
-              <li><a href="#">หน้าแรก</a></li>
+              <li><a href="index.html">หน้าแรก</a></li>
               <li><a href="radio.html">วิทยุ</a></li>
-              <li><a href="#">ดูทีวีย้อนหลัง</a></li>
+              <li><a href="video.html">ดูทีวีย้อนหลัง</a></li>
               <li><a href="#">ตารางออกอากาศ</a></li>
               <li><a href="#">รายการสด</a></li>
               <li><a href="#">เกี่ยวกับเรา</a></li>

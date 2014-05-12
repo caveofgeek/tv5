@@ -14,10 +14,8 @@
 
       <!-- Add custom CSS here -->
       <link href="css/menu-structure.css" rel="stylesheet">
+      <link href="css/radio.css" rel="stylesheet">
       <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-      <style>
-
-      </style>
   </head>
 
   <body>
@@ -41,8 +39,9 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">หน้าแรก</a></li>
             <li><a href="radio.html">วิทยุ</a></li>
-            <li><a href="#">ดูทีวีย้อนหลัง</a></li>
-            <li><a href="#">ตารางออกอากาศ</a></li>
+            <li><a href="video.html">รายการย้อนหลัง</a></li>
+            <li><a href="video_back.html">ดูทีวีย้อนหลัง</a></li>
+            <li><a href="schedule.html">ตารางออกอากาศ</a></li>
             <li><a href="#">เกี่ยวกับเรา</a></li>
           </ul>
           <div class="input-group pull-right">
@@ -58,7 +57,52 @@
 
     <!-- CONTENT -->
     <div class="container">
-      <img src="img/radio/live_radio.jpg">
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-default active">
+          <input type="radio" name="options" id="option1">วิทยุ FM 94.00 MHz
+        </label>
+        <label class="btn btn-default">
+          <input type="radio" name="options" id="option2">วิทยุ FM 94.00 MHz HD3
+        </label>
+        <label class="btn btn-inverse">
+          <input type="radio" name="options" id="option3">ข่าวต้นชั่วโมง (ย้อนหลัง)
+        </label>
+      </div>
+      <div class="screen pull-left">
+        <img src="img/radio/live_radio.jpg">
+      </div>
+      <div class="history pull-left">
+        <table class="table table-striped text-center">
+          <thead>
+            <tr>
+              <th>
+                <div class="date text-center pull-left">18 มีนาคม 2014</div>
+                <div class="action text-center pull-right"><i class="fa fa-calendar"></i></div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 07.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 08.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 09.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 10.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 11.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 12.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 13.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 14.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 15.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 16.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 17.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 18.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 19.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 20.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 21.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 22.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 23.00 น.</td></tr>
+            <tr class="clickableRow"><td>18 มี.ค 57 เวลา 00.00 น.</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <!-- END CONTENT -->
 
@@ -156,7 +200,7 @@
             <ul>
               <li><a href="index.html">หน้าแรก</a></li>
               <li><a href="radio.html">วิทยุ</a></li>
-              <li><a href="#">ดูทีวีย้อนหลัง</a></li>
+              <li><a href="video.html">ดูทีวีย้อนหลัง</a></li>
               <li><a href="#">ตารางออกอากาศ</a></li>
               <li><a href="#">รายการสด</a></li>
               <li><a href="#">เกี่ยวกับเรา</a></li>
@@ -165,5 +209,16 @@
         </div>
       </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+      $('.clickableRow').click(function(){
+        $('.clickableRow').removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
   </body>
 </html>
